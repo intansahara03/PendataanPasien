@@ -7,17 +7,42 @@
     <title>Pendaftaran Pasien Rumah Sakit</title>
 </head>
 <body>
-    <h2>Rumah Sakit</h2>
-    <h2>Sehat Waras Sayung</h2>
+    <Body background="poster.jpg" width="2700" height="200" style="border-radius: 50%;">
+<hr />
+    <header style="text-align: center;">
+        <img src="vektor.jpg" width="200" height="200" style="border-radius: 50%;"/>
+        <h1>RUMAH SAKIT </h1>
+    </header>
+    <hr />
+    <article style="text-align: center;">
+        <h2>Sejahtera</h2>
+    </article>
+    <div style="max-width: 600px; margin: 3em auto">
+        <table border="1" width="100%">
+            <thead>
+                <tr>
+                    <th>action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+            <ul>
+            <li> <a href = "Profil.php">Profil</a> </li>
+            <li> <a href = "pasien.php">Pasien</a> </li>
+            <li> <a href = "tambah.php">Tambah Pasien</a> </li>
+            <li> <a href = "Fasilitas.php">Fasilitas</a> </li>
+</ul>
+</tr>
+</td>
+            </tbody>
+        </table>
+    </div>
+    <hr>
+    <footer style="text-align: center;">
+        <p>Copyright &copy; intan firda sahara.</p>
+    </footer>
 </body>
-    <ul>
-        <li> <a href = "profil.php">Profil</a></li>
-        <li> <a href = "pasien.php">Lihat Pasien</a></li>
-        <li> <a href = "tambah.php">Tambah Pasien</a></li>
-        <li> <a href = "fasilitas.php">Fasilitas</a></li>
-</ul>    
-</div>
-<div class="footer">
-    copyright by Sifa Khoirul Muna
-</div>
+</html>
+</body>
 </html>
